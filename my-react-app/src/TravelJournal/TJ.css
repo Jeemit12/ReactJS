@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    background: #ffffff;
+    color: #2b283a;
+}
+
+.header {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.header > img {
+    margin-right: 20px;
+    height: 30px;
+}
+
+.travel-body {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 32px 40px;
+}
+
+.main-img-container {
+    width: 125px;
+    height: 168px;
+    overflow: hidden;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.travel-content {
+    max-width: 420px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.marker-img {
+    width: 9px;
+    height: 12px;
+}
+
+.country {
+    font-size: 10px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #2b283a;
+}
+
+.map-link {
+    font-size: 10px;
+    color: #918e9b;
+    margin-left: 8px;
+}
+
+.place-title {
+    font-size: 25px;
+    line-height: 1.2;
+    margin: 0 0 14px;
+}
+
+.travel-date p {
+    margin: 0 0 10px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.desc p {
+    margin: 0;
+    font-size: 10px;
+    line-height: 1.5;
+    color: #2b283a;
+}
+
+

@@ -21,8 +21,34 @@
 .main{
     color: aliceblue;
     padding: 60px 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.main::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10%;
+    height: 100%;
+    background-image: url(../assets/react.svg); 
+    background-repeat: no-repeat;
+    background-size: 200% auto;
+    background-position: left center;
+    opacity: 0.5;
+    pointer-events: none;
+}
+.main > ul{
+    align-items: center;
 }
 .main > ul > li{
     line-height: 15px;
     margin-top: 15px;
+    align-items: center;
+    font-size: 20px;
 }
+.main > ul > li::marker{
+    color: #61DAFB;
+    font-size: 1.5rem;
+} 
