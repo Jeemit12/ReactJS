@@ -1,0 +1,29 @@
+.Nav ul{
+  list-style: none;
+  display: flex;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color:rgb(19, 19, 62);
+
+}
+.Main{
+  color: aliceblue;
+  background-color:rgb(19, 19, 62);
+}
+.Nav li{
+  color:aliceblue;
+  font-size:xx-large;
+  width: 120px;
+}
+.img {
+  width: 50px;
+  
+}
+.index{
+  background-color:rgb(19, 19, 62);
+}
+.footer{
+  color:aliceblue;
+}
