@@ -1,0 +1,28 @@
+.img{
+    width: 40px;
+    margin-right: 10px;
+
+}
+.text{
+    font-size: 40px;
+    color: #61DAFB;
+}
+.header{
+    height: 90px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+}
+.index{
+    height: 100%;
+    background-color: #282d35;
+}
+.main{
+    color: aliceblue;
+    padding: 60px 30px;
+}
+.main > ul > li{
+    line-height: 15px;
+    margin-top: 15px;
+}
