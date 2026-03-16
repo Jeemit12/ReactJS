@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    gap: 10px;
+    background-color:rgb(253, 234, 196);
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 2px 4px 10px gray;
+}
+.header > img{
+    margin-top: 0px;
+    margin-right: 10px;
+    height: 55px;
+}
+.header > h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(35, 33, 37)
+}

@@ -1,24 +1,11 @@
-import './TravelJournal/TJ.css';
-import Header from './TravelJournal/Header';
+import './ChefClaude/CC.css';
+import Header from './ChefClaude/Header';
 import Body from './TravelJournal/Body';
 import data from './TravelJournal/travelinfo.js'
 function App(){
-  const travelElemnts=data.map((travel) => {
-    return (
-      <Body
-        key={travel.id}
-        travel={travel}
-
-      />
-    )
-
-  }
-  )
-
   return (
     <>
         <Header />
-        {travelElemnts}
     </>
   )
 }
