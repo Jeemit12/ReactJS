@@ -1,11 +1,11 @@
 import './ChefClaude/CC.css';
-import Header from './ChefClaude/Header';
-import Body from './TravelJournal/Body';
-import data from './TravelJournal/travelinfo.js'
+import Header from './ChefClaude/Header.jsx';
+import Body from './ChefClaude/Body.jsx';
 function App(){
   return (
     <>
         <Header />
+        <Body />
     </>
   )
 }
