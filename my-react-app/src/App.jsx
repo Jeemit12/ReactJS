@@ -1,12 +1,11 @@
-import './ChefClaude/CC.css';
-import Header from './ChefClaude/Header.jsx';
-import Body from './ChefClaude/Body.jsx';
-function App(){
-  return (
-    <>
-        <Header />
-        <Body />
-    </>
-  )
+import Body from "./ChefClaude/Body";
+import Header from './ChefClaude/Header'
+import './ChefClaude/CC.css'
+export default function App(){
+    return (
+        <>
+            <Header />
+            <Body />
+        </>
+    )
 }
-export default App
